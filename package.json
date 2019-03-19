@@ -1,0 +1,11 @@
+{
+  "name": "gladys-neato",
+  "version": "0.0.1",
+  "description": "This module connects Gladys to Neato APIs",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "node-botvac": "^0.2.0"
+  },
+  "author": "Valentino Ciccarone",
+  "license": "CC-BY-NC-SA-3.0"
+}
