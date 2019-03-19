@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "This module connects Gladys to Neato APIs",
   "dependencies": {
+    "bluebird": "^3.5.3",
     "crypto": "^1.0.1",
     "node-botvac": "^0.2.0"
   },
