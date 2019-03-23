@@ -13,13 +13,16 @@
       vm.botName = "";
       vm.saveConfig = saveConfig;
 
+      activate()
 
+      function activate() {
+      }
   
       function saveConfig(){
       var neatoDevice = {
         'neatoName': vm.botName
       }
-  
+
 
 
         return neatoService.saveConfig(neatoDevice)
