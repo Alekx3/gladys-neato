@@ -10,13 +10,14 @@
     function neatoCtrl(neatoService, paramService, $scope) {
       var vm = this;
       vm.ready = true;
+      vm.botName = "";
       vm.saveConfig = saveConfig;
 
 
   
       function saveConfig(){
       var neatoDevice = {
-        'neatoName': botName.trim()
+        'neatoName': vm.botName
       }
   
 
