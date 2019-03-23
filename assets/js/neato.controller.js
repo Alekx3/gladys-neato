@@ -8,7 +8,6 @@
     neatoCtrl.$inject = ['neatoService', 'paramService', '$scope'];
   
     function neatoCtrl(neatoService, paramService, $scope) {
-      /* jshint validthis: true */
       var vm = this;
       vm.ready = true;
       vm.saveConfig = saveConfig;
