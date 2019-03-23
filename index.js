@@ -8,6 +8,5 @@ module.exports = function (sails) {
         test,
         setup,
         getRobot,
-        configure
     };
 };
