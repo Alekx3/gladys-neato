@@ -2,7 +2,7 @@ module.exports = function (sails) {
 
     var getRobot = require('./lib/getRobot');
     var test = require('./lib/test');
-    var startRobot = require('./lib/startRobot');
+    var startRobot = require('./lib/neatoStart');
     var setup = require('./lib/setup');
     var exec = require('./lib/exec');
     
