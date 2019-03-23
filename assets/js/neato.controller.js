@@ -9,13 +9,14 @@
   
     function neatoCtrl(neatoService, paramService, $scope) {
       var vm = this;
-      vm.ready = true;
+      vm.ready = false;
       vm.botName = "";
       vm.saveConfig = saveConfig;
 
       activate()
 
       function activate() {
+        vm.ready = true;
       }
   
       function saveConfig(){
