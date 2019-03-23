@@ -23,8 +23,9 @@
 </div>
 <script>
 function setupNeato() {
-var botName = document.getElementById("deviceName").value();
-alert(botName);
+var botName = document.getElementById("deviceName").value;
+gladys.module.neato.configure(botName);
+
 
 }
 
