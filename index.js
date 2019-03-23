@@ -7,6 +7,6 @@ module.exports = function (sails) {
     return {
         test,
         setup,
-        getRobot,
+        getRobot
     };
 };
