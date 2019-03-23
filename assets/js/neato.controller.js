@@ -17,7 +17,7 @@
   
       function saveConfig(){
       var neatoDevice = {
-        'neatoName': friendlyName.trim()
+        'neatoName': botName.trim()
       }
   
 
