@@ -20,7 +20,8 @@
       }
   
 
-        return neatoService.saveConfig(neatoService)
+
+        return neatoService.saveConfig(neatoDevice)
           .then(function(answer) {
             if (answer.status == 200) {
               if (answer.data === 'SAVE_SUCCESS') {
